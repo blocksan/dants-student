@@ -1,0 +1,10 @@
+.landing-page {
+    text-align: center;
+    overflow: hidden;
+    padding: 100px 0px;
+    padding-top: 20px;
+}
+
+.landing-page .thumbnail img {
+    height: 188px;
+}

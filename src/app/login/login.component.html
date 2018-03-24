@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 col-lg-offset-4 col-sm-offset-3 login-container">
+            <div class="heading">
+                LOGIN
+            </div>
+            <div class="email-input">
+                <input type="email" placeholder="type your email..." [(ngModel)]="email" name="email">
+            </div>
+            <div class="password-input">
+                <input type="password" [(ngModel)]="password" name="password">
+            </div>
+            <div class="login-button">
+                <button class="btn btn-primary" (click)=ngOnSubmit()> Login</button>
+            </div>
+            or
+            <div class="register-button">
+                <button class="btn btn-default" routerLink="/register">  Register</button>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-lg-offset-4 col-sm-offset-3"></div>
+    </div>
+</div>

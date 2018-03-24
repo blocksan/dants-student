@@ -1,0 +1,47 @@
+.login-container {
+    margin-top: 5%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.login-container .heading {
+    height: 50px;
+    background: #035872;
+    line-height: 50px;
+    color: #fff;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.login-container .email-input,
+.login-container .password-input {
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .email-input input,
+.login-container .password-input input {
+    height: 40px;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.login-container .login-button button {
+    margin-top: 20px;
+    border-radius: 1px;
+    width: 100px;
+    background: #035872;
+}
+
+.login-container .register-button button {
+    margin-bottom: 20px;
+    width: 100px;
+    border-radius: 2px;
+}

@@ -1,0 +1,11 @@
+.footer-component {
+    position: fixed;
+    bottom: 0;
+    background: #e8e8e8;
+    color: #444;
+    height: 120px;
+    font-size: 1.3em;
+    padding-top: 40px;
+    line-height: 20px;
+    text-align: center;
+}
